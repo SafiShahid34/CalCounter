@@ -5,23 +5,31 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" types="text/css" href="assets/css/styles.css">
     <script type="text/javascript" src="assets/js/lib/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Blaka&family=Finger+Paint&family=Pacifico&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
-        <h1>Food List</h1>
-        <input type="text" placeholder="add new food item">
-        <input type="number" placeholder="calories">
-        <input type="number" placeholder="Carbs">
-        <input type="number" placeholder="Fats">
-        <input type="number" placeholder="Protein">
-        <div id="food">
-            <ul>
-                <li>Chicken(100, 15, 10, 20)</li>
-                <li>Rice(160, 45, 5, 5)</li>
-                <li>Brocolli(45, 5, 0, 0)</li>
-           </ul>
+        <div id="heading">
+            <h1>Calorie Counter</h1>
         </div>
         
+        <input id= "name" type="text" placeholder="add new food item">
+        <input id= "Cal" type="number" placeholder="calories">
+        <input id= "Carb" type="number" placeholder="Carbs">
+        <input id= "Fat" type="number" placeholder="Fats">
+        <input id= "Protein" type="number" placeholder="Protein">
+        <br>
+        <button id="butt">Add</button>
+        <div id="food">
+            <ul>
+                <li><div class="panel"><span> ~ </span><p >Chicken</p> <div class="Stats pro">Protein:<div class="num">20</div></div> <div class="Stats fat">Fats:<div class="num">10</div></div> <div class="Stats carb">Carbs:<div class="num">15</div></div> <div class="Stats cal">Calories:<div class="num">100</div></div> </div></li>
+                <li><div class="panel"><span> ~ </span><p>Rice</p> <div class="Stats pro">Protein:<div class="num">20</div></div> <div class="Stats fat">Fats:<div class="num">10</div></div> <div class="Stats carb">Carbs:<div class="num">15</div></div> <div class="Stats cal">Calories:<div class="num">100</div></div></div></li>
+                <li><div class="panel"><span> ~ </span><p>Brocolli</p> <div class="Stats pro">Protein:<div class="num">20</div></div> <div class="Stats fat">Fats:<div class="num">10</div></div> <div class="Stats carb">Carbs:<div class="num">15</div></div> <div class="Stats cal">Calories:<div class="num">100</div></div></div></li>
+           </ul>
+        </div>
+        <div></div>
     </div>
    
 <script type="text/javascript" src="assets/js/script.js"></script>

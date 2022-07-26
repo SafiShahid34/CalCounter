@@ -1,8 +1,8 @@
 body{
     height: 100%;
-    border: black 3px solid;
     margin: 0;
     height: 100%;
+    background-image: linear-gradient(to right, #5e5e5e 0%, rgb(43, 43, 43) 100%);
 }
 #base{
     background: linear-gradient(rgb(255, 146, 46), rgb(255, 172, 72),  rgb(255, 192, 92),  rgb(255, 222, 22) );
@@ -15,3 +15,86 @@ body{
     
 }
 
+h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgb(59, 59, 59);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 55px;
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#heading{
+    border: black 5px solid;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    width: 35%;
+}
+span{
+    
+}
+
+p{
+    display: inline-block;
+    font-size: 35px;
+    font-family:  'Bangers', cursive;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    padding: 0px;
+    margin: 10px;
+    color: rgb(59, 59, 59);
+}
+
+#item{
+    font-size: 35px;
+    
+    font-family:  'Bangers', cursive;
+    text-shadow: 2px 2px 2px rgb(136, 136, 136);
+    display: inline-block;
+    
+    margin-top: 5px;
+    
+}
+
+.Stats{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family:  'Bangers', cursive;
+    text-shadow: 2px 2px 2px rgb(136, 136, 136);
+}
+
+.panel{
+    border: black 3px solid;
+    width: 50%;
+    
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+
+.cal{
+    color: black
+}
+
+.pro{
+    color: red; 
+}
+
+.fat{
+    color: yellow;
+}
+
+.carb{
+    color: blue;
+}
+
+.num{
+    color: black;
+}
