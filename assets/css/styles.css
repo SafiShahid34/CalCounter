@@ -1,0 +1,17 @@
+body{
+    height: 100%;
+    border: black 3px solid;
+    margin: 0;
+    height: 100%;
+}
+#base{
+    background: linear-gradient(rgb(255, 146, 46), rgb(255, 172, 72),  rgb(255, 192, 92),  rgb(255, 222, 22) );
+    background-repeat: no-repeat;
+    width: 100%;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        font-family: 'Pacifico', cursive;
+        margin-right: 2%;
+    
+}
+
