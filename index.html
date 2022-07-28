@@ -14,22 +14,33 @@
         <div id="heading">
             <h1>Calorie Counter</h1>
         </div>
-        
-        <input id= "name" type="text" placeholder="add new food item">
-        <input id= "Cal" type="number" placeholder="calories">
-        <input id= "Carb" type="number" placeholder="Carbs">
-        <input id= "Fat" type="number" placeholder="Fats">
-        <input id= "Protein" type="number" placeholder="Protein">
-        <br>
-        <button id="butt">Add</button>
+        <div id="final">
+            <div>
+                <div class="Stats carb gg">Protein<div class="num" id= "PF">15</div></div>
+                <div class="Stats fat gg">Fats<div class="num" id= "FF">10</div></div>
+                <div class="Stats pro gg">Carbs<div class="num" id= "ccF">25</div></div>
+                <div class="Stats cal gg">Calories<div class="num" id= "CF">240</div></div>
+            </div>
+            
+            <div class="Stats hh">Totals</div>
+            
+            <button id="bbbb">Update</button>
+        </div>
+        <div id="form">
+            <label>Item</label><input id= "name" type="text" placeholder="add new food item"><br>
+            <label>Calories</label><input id= "Cal" type="number" placeholder="calories"><br>
+            <label>Carbohydrates(g)</label><input id= "Carb" type="number" placeholder="Carbs"><br>
+            <label>Fats(g)</label><input id= "Fat" type="number" placeholder="Fats"><br>
+            <label>Protein(g)</label><input id= "Protein" type="number" placeholder="Protein">
+            <br>
+            <button id="butt">Add Item</button>
+        </div>
         <div id="food">
             <ul>
-                <li><div class="panel"><span> ~ </span><p >Chicken</p> <div class="Stats pro">Protein:<div class="num">20</div></div> <div class="Stats fat">Fats:<div class="num">10</div></div> <div class="Stats carb">Carbs:<div class="num">15</div></div> <div class="Stats cal">Calories:<div class="num">100</div></div> </div></li>
-                <li><div class="panel"><span> ~ </span><p>Rice</p> <div class="Stats pro">Protein:<div class="num">20</div></div> <div class="Stats fat">Fats:<div class="num">10</div></div> <div class="Stats carb">Carbs:<div class="num">15</div></div> <div class="Stats cal">Calories:<div class="num">100</div></div></div></li>
-                <li><div class="panel"><span> ~ </span><p>Brocolli</p> <div class="Stats pro">Protein:<div class="num">20</div></div> <div class="Stats fat">Fats:<div class="num">10</div></div> <div class="Stats carb">Carbs:<div class="num">15</div></div> <div class="Stats cal">Calories:<div class="num">100</div></div></div></li>
-           </ul>
+                <li><div class="panel"><span> ~ </span><p class="watebottle">Ex</p> <div class="Stats pro">Protein:<div class="num">15</div></div> <div class="Stats fat">Fats:<div class="num">10</div></div> <div class="Stats carb">Carbs:<div class="num">25</div></div> <div class="Stats cal">Calories:<div class="num">240</div></div> </div></li>
+            </ul>
         </div>
-        <div></div>
+        
     </div>
    
 <script type="text/javascript" src="assets/js/script.js"></script>
