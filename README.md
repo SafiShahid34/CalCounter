@@ -1,6 +1,7 @@
 # CalCounter
 Simple CRUD application to determine macros and calorie count
 * Manually input food items with macros and the application returns your total nutrition intake
+* Remove food items by clicking the dashed line on the left of the food item
 
 #Languages/Tools
 * Javascript
